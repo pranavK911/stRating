@@ -11,15 +11,12 @@ const str={
 
 
 
-export default function StarRatin({max=5,color="#fcc419",
-    size=44,mess=[],
-    onStar
-}){
+export default function StarRatin({max=5,color="#fcc419", size=44,mess=[],onStar}){
    const [rating,setRating]=useState(0);
    const [tempRating,setTempRating]=useState(0);
     function handRating(rartings){
         setRating(rartings)
-        onStar(rartings)
+        // onStar(rartings)
     }
     const textstyle={
         lineHeight:"1",

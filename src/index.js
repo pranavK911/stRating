@@ -20,8 +20,8 @@ root.render(
     {/* <App /> */}
     <StarRatin max={10}/>
     <StarRatin size={80} color='red' mess={['Terrible', 'Bad', 'Okay', 'Good', 'Amazing']}/>
-    <StarRatin size={80} color='blue'/>
-   <Test/>
+    {/* <StarRatin size={80} color='blue'/> */}
+   {/* <Test/> */}
     
     {/* <StarRatin/> */}
   </React.StrictMode>
